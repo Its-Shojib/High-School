@@ -1,0 +1,113 @@
+body{
+    background-image: url("images/bg.jpg");
+    background-size: cover;
+}
+.navbar{
+    margin: 0px 200px;
+    border: 5px solid blue;
+    padding: 17px;
+    background-color:darkblue;
+    height: 25px;
+    text-align: center;
+    border-radius: 10px;
+}
+.navbar a{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    color:beige;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+.navbar a:hover{
+    background-color: darkorange;
+}
+.identity{
+    display:flex;
+    margin: 5px 200px;
+}
+.name{
+    margin-left: 40px;
+    color:gold;
+}
+.name h1:hover,h3:hover{
+    color: red;
+}
+.logo img{
+    border-radius: 130px;
+    border: 2px solid khaki;
+}
+.search{
+    margin: 20px;
+    padding-left: 60px;
+}
+input{
+    color:crimson;
+    border: 2px solid gold;
+}
+.marqu span{
+    border: 2px solid red;
+    background-color:black;
+}
+.marqu{
+    display: inline-block;
+    margin: 5px 200px;
+    display: flex;
+    border: 2px solid deepskyblue;
+    color: white;
+}
+.contain{
+    display: flex;
+    margin: 5px 200px;
+}
+.notice{
+    text-align: center;
+    color: coral;
+    border: 2px solid yellow;
+    width: 500px;
+    margin-right:30px;
+}
+.notice h3{
+    border: 2px solid indigo;
+    color: white;
+    background-color: black;
+}
+.headu{
+    border: 2px solid yellow;
+    padding: 20px;
+    margin-left: 45px;
+    
+}
+.headu h2{
+    color: white;
+    text-align: center;
+}
+.headu p{
+    color: white;
+    text-align: center;
+}
+.headu img{
+    height: 300px;
+    width: 500px;
+    
+}
+li a{
+    text-decoration: none;
+    font-weight: 700;
+    border: 2px solid forestgreen;
+    background-color:green;
+    color: white;
+}
+li{
+    list-style: none;
+    margin: 5px;
+    padding: 5px;
+    height: 20px;
+    width: 400px;
+}
+footer{
+    background-color: black;
+    color: azure;
+    text-align: center;
+}
